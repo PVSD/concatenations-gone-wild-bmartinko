@@ -12,10 +12,8 @@ public class Main {
 
     private static String cat(int start, int end)
     {
-        String c = "";
         StringBuffer prem = new StringBuffer();
         for (int i = start; i <= end; i++){
-            c += (char)i;
             prem.append((char)(i));
         }
         return prem.toString();
